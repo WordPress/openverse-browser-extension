@@ -1,15 +1,6 @@
-> 🙅 **status: discontinued:** Project is in maintenance mode.
->
-> **The projects related to this are being continued by WordPress: [Welcome to Openverse – Openverse — WordPress.org](https://make.wordpress.org/openverse/2021/05/11/hello-world/).**
->
-> For additional context see:
-> - 2020-12-07: [Upcoming Changes to the CC Open Source Community — Creative Commons Open Source](https://opensource.creativecommons.org/blog/entries/2020-12-07-upcoming-changes-to-community/)
-> - 2021-05-03: [CC Search to Join WordPress - Creative Commons](https://creativecommons.org/2021/05/03/cc-search-to-join-wordpress/)
-> - **2021-05-10: [Welcome to Openverse – Openverse — WordPress.org](https://make.wordpress.org/openverse/2021/05/11/hello-world/)**
-
   <p align="center">
   <img src="https://mirrors.creativecommons.org/presskit/icons/cc.xlarge.png" height="150">
-  <h2 align="center">CC Search Browser Extension</h2>
+  <h2 align="center">Openverse Browser Extension</h2>
     <h4 align="center">
     <a href="https://chrome.google.com/webstore/detail/cc-search/agohkbfananbebiaphblgcfhcclklfnh">
       Chrome
@@ -30,13 +21,13 @@
   <p align="center">A Cross-Browser extension that lets you search, filter, and use images in the public domain and under Creative Commons licenses.<p>
 
   <p align="center">
-    <a href="https://github.com/creativecommons/ccsearch-browser-extension/blob/master/LICENSE">
-      <img alt="MIT License" src="https://img.shields.io/github/license/creativecommons/ccsearch-browser-extension.svg?color=brightgreen" />
+    <a href="https://github.com/wordpress/openverse-browser-extension/blob/master/LICENSE">
+      <img alt="MIT License" src="https://img.shields.io/github/license/wordpress/openverse-browser-extension.svg?color=brightgreen" />
     </a>
-    <a href="https://circleci.com/gh/creativecommons/ccsearch-browser-extension/tree/master">
-    	<img src="https://circleci.com/gh/creativecommons/ccsearch-browser-extension/tree/master.svg?style=shield" alt="platforms" />
+    <a href="https://circleci.com/gh/wordpress/openverse-browser-extension/tree/master">
+    	<img src="https://circleci.com/gh/wordpress/openverse-browser-extension/tree/master.svg?style=shield" alt="platforms" />
     </a>
-    <a href="https://github.com/creativecommons/ccsearch-browser-extension/blob/master/CONTRIBUTING.md">
+    <a href="https://github.com/wordpress/openverse-browser-extension/blob/master/CONTRIBUTING.md">
 	    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="prs welcome">
     </a>
   </p>
@@ -74,7 +65,7 @@ You can install the extension directly from the source. Follow the following ste
 1. Clone the repository
 
 ```
-git clone https://github.com/creativecommons/ccsearch-browser-extension.git
+git clone https://github.com/wordpress/openverse-browser-extension.git
 ```
 
 2. Install project dependencies
@@ -135,9 +126,9 @@ npm install -g webpack-cli
 
 ## Contribution
 
-Checkout [CONTRIBUTING.md](https://github.com/creativecommons/ccsearch-browser-extension/blob/master/CONTRIBUTING.md) for general guidelines for contributing code to CC Open Source.
+Checkout [CONTRIBUTING.md](https://github.com/wordpress/openverse-browser-extension/blob/master/CONTRIBUTING.md) for general guidelines for contributing code to CC Open Source.
 
-For contribution guidelines and development instructions **specific to this particular project**, please checkout [INSTRUCTIONS.md](https://github.com/creativecommons/ccsearch-browser-extension/blob/master/INSTRUCTIONS.md).
+For contribution guidelines and development instructions **specific to this particular project**, please checkout [INSTRUCTIONS.md](https://github.com/wordpress/openverse-browser-extension/blob/master/INSTRUCTIONS.md).
 
 ## Debugging in Development Mode
 
@@ -178,4 +169,4 @@ After you have [loaded the extension](#loading-the-extension-in-the-browser), th
 
 ## License
 
-See [LICENSE](https://github.com/creativecommons/ccsearch-browser-extension/blob/master/LICENSE).
+See [LICENSE](https://github.com/wordpress/openverse-browser-extension/blob/master/LICENSE).
