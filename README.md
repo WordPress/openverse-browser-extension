@@ -130,28 +130,28 @@ For contribution guidelines and development instructions **specific to this part
 
 ## Debugging in Development Mode
 
-- **Mozilla Firefox**
+### Mozilla Firefox
 
-  - Navigate to _about:debugging_ and from sidebar select _This Firefox_.
-  - Click on "Load Temporary Add-on" button.
-    <p align="center">
-      <img src="https://i.imgur.com/6pf428K.jpg">
-    </p>
-  - From the file explorer, choose `openverse-browser-extension/dist/firefox/manifest.json`.
-  - You will be now able to see Openverse browser extension. Now click on the Inspect button.
-    <p align="center">
-      <img src="https://i.imgur.com/GFnfjQS.jpg">
-    </p>
-  - A new tab will open with Firefox debugger. Now first, click on the _three dots_ and select "Disable Popup Auto-Hide".
-    <p align="center">
-      <img src="https://i.imgur.com/K7HRBPj.jpg">
-    </p>
-  - Now click on the browser extension from top right corner and the developer tools will be loaded with the content to debug.
-    <p align="center">
-      <img src="https://i.imgur.com/9Jryt1i.jpg">
-    </p>
+- Navigate to _about:debugging_ and from sidebar select _This Firefox_.
+- Click on "Load Temporary Add-on" button.
+  <p align="center">
+    <img src="https://i.imgur.com/6pf428K.jpg">
+  </p>
+- From the file explorer, choose `openverse-browser-extension/dist/firefox/manifest.json`.
+- You will be now able to see Openverse browser extension. Now click on the Inspect button.
+  <p align="center">
+    <img src="https://i.imgur.com/GFnfjQS.jpg">
+  </p>
+- A new tab will open with Firefox debugger. Now first, click on the _three dots_ and select "Disable Popup Auto-Hide".
+  <p align="center">
+    <img src="https://i.imgur.com/K7HRBPj.jpg">
+  </p>
+- Now click on the browser extension from top right corner and the developer tools will be loaded with the content to debug.
+  <p align="center">
+    <img src="https://i.imgur.com/9Jryt1i.jpg">
+  </p>
 
-- **Google Chrome, Opera, Microsoft Edge**
+### Google Chrome, Opera, Microsoft Edge
 
 After you have [loaded the extension](#loading-the-extension-in-the-browser), follow these steps.
 
