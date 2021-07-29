@@ -13,11 +13,11 @@
    - **Mozilla Firefox**
      - Navigate to _about:debugging_.
      - Click on "Load Temporary Add-on" button.
-     - From the file explorer, choose `ccsearch-browser-extension/dist/firefox/manifest.json`.
+     - From the file explorer, choose `openverse-browser-extension/dist/firefox/manifest.json`.
 
 ## About
 
-This is an Open-Source project of [Creative Commons](https://creativecommons.org/). Check out the code on [Github](https://github.com/creativecommons/ccsearch-browser-extension/)
+This is an open-source project. You can view the code on [GitHub](https://github.com/WordPress/openverse-browser-extension/). Contributions in the form of PRs are welcome!
 
 ## License
 
