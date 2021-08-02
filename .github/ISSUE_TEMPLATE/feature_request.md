@@ -1,16 +1,22 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Suggest a new feature or improvements to an existing one
+labels: "✨ goal: improvement, 🚦 status: awaiting triage, 💻 aspect: code, 🟩 priority: low"
+title: "[Feature] <Replace this with actual title>"
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Problem
+<!-- Describe a problem solved by this feature; or delete the section entirely. -->
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Description
+<!-- Describe the feature and how it solves the problem. -->
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Alternatives
+<!-- Describe any alternative solutions or features you have considered. How is this feature better? -->
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## Additional context
+<!-- Add any other context about the feature here; or delete the section entirely. -->
+
+## Implementation
+<!-- Replace the [ ] with [x] to check the box. -->
+- [ ] 🙋 I would be interested in implementing this feature.
