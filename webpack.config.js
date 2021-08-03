@@ -2,19 +2,13 @@ const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 
-if (!process.env.TARGET) {
-  throw Error("Please specify env var TARGET, 'chrome', 'firefox' or 'opera'.");
-} else if (
-  !(
-    process.env.TARGET === 'chrome' ||
-    process.env.TARGET === 'firefox' ||
-    process.env.TARGET === 'opera' ||
-    process.env.TARGET === 'edge'
-  )
-) {
-  throw Error("TARGET can only be 'chrome', 'firefox', 'opera' or 'edge'.");
-} else {
+const firefoxExtra = require('./src/manifest_extra.firefox.json');
+
+const target = process.env.TARGET;
+if (target && ['chrome', 'firefox', 'opera', 'edge'].includes(target)) {
   console.info(`\x1b[1;32mBuilding for ${process.env.TARGET}...\x1b[m`);
+} else {
+  throw new Error("Please specify environment variable TARGET: 'chrome', 'firefox', 'opera' or 'edge'");
 }
 
 module.exports = {
@@ -34,8 +28,17 @@ module.exports = {
   plugins: [
     new CopyPlugin([
       {
-        from: `./manifest.${process.env.TARGET}.json`,
+        from: `./manifest.json`,
         to: './manifest.json',
+        transform(content) {
+          if (target === 'firefox') {
+            let manifest = JSON.parse(content.toString());
+            manifest = { ...manifest, ...firefoxExtra };
+            return JSON.stringify(manifest, null, 2);
+          }
+
+          return content;
+        },
       },
       {
         from: './icons/*',
