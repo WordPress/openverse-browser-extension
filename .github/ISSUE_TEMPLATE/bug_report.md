@@ -1,28 +1,37 @@
 ---
 name: Bug report
 about: Create a report to help us improve
+labels: "🛠 goal: fix, 🚦 status: awaiting triage, 💻 aspect: code, 🟧 priority: high"
+title: "[Bug] <Replace this with actual title>"
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Description
+<!-- Concisely describe the bug. -->
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## Reproduction
+<!-- Provide detailed steps to reproduce the bug. -->
+1. <!-- Step 1 ... -->
+2. <!-- Step 2 ... -->
+3. <!-- Step 3 ... -->
+4. See error.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Expectation
+<!-- Concisely describe what you expected to happen. -->
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## Screenshots
+<!-- Add screenshots to show the problem; or delete the section entirely. -->
 
-**Desktop (please complete the following information):**
- - OS: [e.g. Linux, Windows]
- - Browser [e.g. chrome, firefox]
- - Version [e.g. 1.0.0]
+## Environment
+<!-- Please complete this, unless you are certain the problem is not environment specific. -->
+ - Device: <!-- (_eg._ iPhone Xs; laptop) -->
+ - OS: <!-- (_eg._ iOS 13.5; Fedora 32) -->
+ - Browser: <!-- (_eg._ Safari; Firefox) -->
+ - Version: <!-- (_eg._ 13; 73) -->
+ - Other info: <!-- (_eg._ display resolution, ease-of-access settings) -->
 
-**Additional context**
-Add any other context about the problem here.
+## Additional context
+<!-- Add any other context about the problem here; or delete the section entirely. -->
+
+## Resolution
+<!-- Replace the [ ] with [x] to check the box. -->
+- [ ] 🙋 I would be interested in resolving this bug.

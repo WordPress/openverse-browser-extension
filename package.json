@@ -1,7 +1,7 @@
 {
-  "name": "ccsearch-browser-extension",
-  "version": "1.0.0",
-  "description": "CC Search Browser Extension.",
+  "name": "openverse-browser-extension",
+  "version": "2.0.0",
+  "description": "A cross-browser extension that lets you search, filter, and use openly-licensed images.",
   "scripts": {
     "lint": "eslint \"./src/**/*.js\" \"./tests/**/*.js\"",
     "compile-sass-popup:dev": "node-sass src/popup/sass/main.scss src/popup/popup.css",
