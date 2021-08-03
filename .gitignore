@@ -1,4 +1,13 @@
+# Editor/IDE configs
+.idea
+.vscode
+
+# Lib
 node_modules
+
+# Build files
 popup.css
+popup.css.map
 options.css
+options.css.map
 dist/
