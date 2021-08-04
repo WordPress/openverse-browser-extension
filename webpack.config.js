@@ -4,7 +4,7 @@ const webpack = require('webpack');
 
 const target = process.env.TARGET;
 if (target && ['chrome', 'firefox', 'opera', 'edge'].includes(target)) {
-  console.info(`\x1b[1;32mBuilding for ${process.env.TARGET}...\x1b[m`);
+  console.info(`\x1b[1;32mBuilding for ${target}...\x1b[m`);
 } else {
   throw new Error("Please specify environment variable TARGET: 'chrome', 'firefox', 'opera' or 'edge'");
 }
@@ -17,7 +17,7 @@ module.exports = {
     './options/options': './options/options.js',
   },
   output: {
-    path: path.resolve(__dirname, 'dist', process.env.TARGET),
+    path: path.resolve(__dirname, 'dist', target),
     filename: '[name].js',
   },
   node: {
@@ -63,7 +63,7 @@ module.exports = {
   ],
 };
 
-if (process.env.TARGET === 'edge') {
+if (target === 'edge') {
   module.exports.plugins.push(
     new CopyPlugin([
       {
