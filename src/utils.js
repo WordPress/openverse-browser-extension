@@ -44,9 +44,9 @@ function checkAPIResponse(response, context) {
   if (response.status !== 200) {
     let message;
     if (context === 'sources') message = 'Unable to fetch sources. Please try again after some time.';
-    else if (context === 'images') message = 'Some error occured while fetching images. Please try after some time.';
+    else if (context === 'images') message = 'Some error occurred while fetching images. Please try after some time.';
     else if (context === 'image')
-      message = 'Some error occured while fetching information of this image. Please try again after some time.';
+      message = 'Some error occurred while fetching information of this image. Please try again after some time.';
 
     showNotification(message, 'negative', 'notification--extension-popup', 3000);
     throw new Error(`API Error. Response: ${response}`);
