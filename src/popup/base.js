@@ -122,7 +122,7 @@ clipboard.on('success', e => {
 });
 
 clipboard.on('error', () => {
-  showNotification('Some error occured while copying', 'negative', 'notification--extension-popup');
+  showNotification('Some error occurred while copying', 'negative', 'notification--extension-popup');
 });
 
 // setting up masonry https://github.com/desandro/masonry

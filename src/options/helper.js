@@ -200,7 +200,7 @@ export async function addLegacyBookmarksToStorage(bookmarksArray) {
             license: image.license,
           };
           bookmarkBatchCount += 1;
-          // add bookmarks in the batch of 10 to storage. This allows completting
+          // add bookmarks in the batch of 10 to storage. This allows completing
           // the process without surpassing the sync storage write limit.
           if (bookmarkBatchCount === 10) {
             addBookmarksToStorage(newBookmarksObject, false);
@@ -208,7 +208,7 @@ export async function addLegacyBookmarksToStorage(bookmarksArray) {
             newBookmarksObject = {};
           }
         } else {
-          showNotification('Error occured while connecting with the API', 'negative', 'notification--options');
+          showNotification('Error occurred while connecting with the API', 'negative', 'notification--options');
           console.log(`Error: ${responseCode}`);
         }
       }
